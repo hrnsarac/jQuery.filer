@@ -250,7 +250,7 @@
 					_thumbCreator: {
 						create: function(i) {
 							var file = f.files[i],
-								id = (f._itFc ? f._itFc.id : i),
+								id = (f._itFc ? f._itFc.file.id : f._itFc.id),
 								name = file.name,
 								size = file.size,
 								type = file.type.split("/", 1)
